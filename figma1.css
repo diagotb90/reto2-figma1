@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1440px;
+    height: 3375px;
+}
+header{
+    background-color: #9ECEFA;
+    width: 100%;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+nav{
+    width: 507px;
+    margin-right: 53px;
+ }
+
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    list-style: none;
+    
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: #707070;
+       
+       
+}
+.nav-ul li a:hover{
+    color: #87119A;
+    font-weight: 700;
+    text-decoration: underline;
+         
+}
+.logo{
+    color: #87119A;
+    font-family: 'Fascinate', cursive;
+    font-size: 52px;
+    margin-left: 40px;
+
+    
+}
+.subtitulos{
+    margin: 43px 36px;
+    
+}
+.subtitulo2{
+    margin: 93px 36px 0px;
+}
+
+h2{
+    color: #87119A;
+    font-size: 28px;
+    border-left: 8px solid #87119A;
+    padding-left: 23px;
+   
+}
+
+p{
+    margin: 18px 36px;
+    width: 1351px;
+    font-size: 16px;
+    word-spacing: 5px;
+    line-height: 32px;
+    
+}
+.imagenes-1{
+    margin: 53px 32px;
+}
+
+.imagenes-1 img{
+    height: 251px;
+    width: 410px;
+    margin-right: 28px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+     
+}
+.imagenes-2{
+    margin-left: 80px;
+    text-align: center;
+
+}
+.imagenes-2 img{
+
+    height: 251px;
+    width: 410px;
+    margin-right: 50px;
+    margin-top: 61px;
+    border-radius: 8px;
+    
+}
+.imagenes-3{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.imagenes-3 img{
+    margin-right: 39px;
+    margin-top: 33px;
+    height: 251px;
+    width: 282px;
+    border-radius: 8px;
+}
+.imagenes-4{
+    margin-top: 40px;
+
+}
+.imagenes-4 img{
+    margin-left: 44px;
+    height: 545px;
+    width: 892px;
+    border-radius: 8px;
+}
+.caja-5{
+    display: flex;
+}
+.datos {
+    margin-top: 50px;
+}
+
+.datos p{
+    width: 300px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    word-spacing: 0px;
+}
+footer{
+    background-color: #9ECEFA;
+    width: 1440px;
+    height: 77px;
+    margin-top: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+            
+}
+footer p{
+    width: auto;
+    word-spacing: 2px;
+
+}
+footer p strong{
+    color: #87119A;
+    
+}
